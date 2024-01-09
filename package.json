@@ -1,0 +1,28 @@
+{
+  "name": "toolx-wiki",
+  "version": "0.0.0",
+  "description": "Internal Wiki for DotZip Developments",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build --site http://localhost:4321",
+    "preview": "astro preview",
+    "dev": "astro dev",
+    "start": "astro dev"
+  },
+  "keywords": [],
+  "author": "ariiera (Noah Vazquez)",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/starlight": "^0.15.2",
+    "astro": "^4.1.1",
+    "sharp": "^0.32.5"
+  },
+  "engine": {
+    "node": "^18.18.0 || ^20.9.0 || >=21.1.0",
+    "npm": ">=7"
+  }
+}
